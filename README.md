@@ -1,5 +1,5 @@
 
-## Installation on AWS
+## Installation on AWS or local
 Setup a t2.medium EC2 instance with Ubuntu 22.04, 20GB disk, and open up ports 3000, 8000
 
 ```bash
