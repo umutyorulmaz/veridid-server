@@ -1,5 +1,3 @@
-![VeriDID](Logo.png)
-
 
 ## Installation on AWS
 Setup a t2.medium EC2 instance with Ubuntu 22.04, 20GB disk, and open up ports 3000, 8000
@@ -60,26 +58,5 @@ $ npx -p @aries-framework/node is-indy-installed
 
 ```bash
 # development
-$ npm run start
-
-# watch mode
-$ npm run start:dev
-
-# production mode
-$ npm run start:prod
+$ yarn start:dev
 ```
-
-## Test
-
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
-
-
